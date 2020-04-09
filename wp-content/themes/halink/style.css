@@ -3282,7 +3282,7 @@ ul.menu,
 }
 
 #main-menu .primary-menu .mid-header .phone-icon-menu {
-	background: #525252 url("../assets/img/btn-menu-mobile.png") no-repeat scroll center center;
+	background: #525252 url("images/btn-menu-mobile.png") no-repeat scroll center center;
 	display: none;
 	float: left;
 	height: 40px;
@@ -5305,7 +5305,7 @@ blockquote p {
 }
 
 .res-button.slick-prev {
-	background: url(../assets/img/tab_pre.png) no-repeat center center #fff;
+	background: url(images/tab_pre.png) no-repeat center center #fff;
 	border: 1px solid #dbdbdb;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -5313,7 +5313,7 @@ blockquote p {
 }
 
 .res-button.slick-prev:hover {
-	background: url(../assets/img/hover_pre.png) no-repeat center center #000080;
+	background: url(images/hover_pre.png) no-repeat center center #000080;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
@@ -5503,7 +5503,7 @@ blockquote p {
 }
 
 .page-button .control-button .preview {
-	background: url(../assets/img/tab_pre.png) no-repeat center center #fff;
+	background: url(images/tab_pre.png) no-repeat center center #fff;
 	border: 1px solid #dbdbdb;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -5511,7 +5511,7 @@ blockquote p {
 }
 
 .page-button .control-button .preview:hover {
-	background: url(../assets/img/hover_pre.png) no-repeat center center #000080;
+	background: url(images/hover_pre.png) no-repeat center center #000080;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
@@ -5715,7 +5715,7 @@ input[type=number]::-webkit-outer-spin-button {
 .onsale {
 	width: 45px;
 	height: 27px;
-	background: url(../assets/img/sale-label-product.png) no-repeat top left;
+	background: url(images/sale-label-product.png) no-repeat top left;
 	position: absolute;
 	top: -8px;
 	left: -8px;
@@ -6066,7 +6066,7 @@ ul.list .sm_quickview_handler {
 	height: 45px;
 	content: "";
 	display: inline-block;
-	background-image: url(../assets/img/icon-ver-menu.png);
+	background-image: url(images/icon-ver-menu.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	left: 0px;
@@ -6756,7 +6756,7 @@ div.breadcrumbs ul.breadcrumb li+li:before {
 .woocommerce-page span.onsale {
 	width: 45px;
 	height: 27px;
-	background: url(../assets/img/sale-label-product.png) no-repeat top left;
+	background: url(images/sale-label-product.png) no-repeat top left;
 	position: absolute;
 	top: 10px;
 	left: 10px;
@@ -6806,7 +6806,7 @@ div.breadcrumbs ul.breadcrumb li+li:before {
 
 .woocommerce .products-nav .view-mode-wrap .view-grid a,
 .woocommerce-page .products-nav .view-mode-wrap .view-grid a {
-	background-image: url("../assets/img/blue/grid-btn.png");
+	background-image: url("images/grid-btn.png");
 }
 
 .woocommerce .products-nav .view-mode-wrap .view-grid.sel a,
@@ -6818,7 +6818,7 @@ div.breadcrumbs ul.breadcrumb li+li:before {
 
 .woocommerce .products-nav .view-mode-wrap .view-list a,
 .woocommerce-page .products-nav .view-mode-wrap .view-list a {
-	background-image: url("../assets/img/blue/listing-btn.png");
+	background-image: url("images/listing-btn.png");
 }
 
 .woocommerce .products-nav ul,
@@ -6842,7 +6842,7 @@ div.breadcrumbs ul.breadcrumb li+li:before {
 
 .woocommerce .products-nav .catalog-ordering ul.order li.asc a,
 .woocommerce-page .products-nav .catalog-ordering ul.order li.asc a {
-	background: url(../assets/img/up-icon.png) no-repeat scroll 9px 8px;
+	background: url(images/up-icon.png) no-repeat scroll 9px 8px;
 	border: 0;
 }
 
@@ -6853,7 +6853,7 @@ div.breadcrumbs ul.breadcrumb li+li:before {
 
 .woocommerce .products-nav .catalog-ordering ul.order li.desc a,
 .woocommerce-page .products-nav .catalog-ordering ul.order li.desc a {
-	background: url(../assets/img/down-icon.png) no-repeat scroll 9px 8px;
+	background: url(images/down-icon.png) no-repeat scroll 9px 8px;
 	border: 0;
 }
 
@@ -6905,7 +6905,7 @@ div.breadcrumbs ul.breadcrumb li+li:before {
 .woocommerce .products-nav .catalog-ordering .orderby-order-container ul li a,
 .woocommerce-page .products-nav .catalog-ordering .orderby-order-container ul li a {
 	font-size: 11px;
-	background: #fff url("../assets/img/shortby-icon.png") no-repeat scroll right center;
+	background: #fff url("images/shortby-icon.png") no-repeat scroll right center;
 	padding: 0 15px 0 0;
 	color: #909090;
 	min-height: 26px;
@@ -7042,12 +7042,12 @@ div.breadcrumbs ul.breadcrumb li+li:before {
 .woocommerce .products-nav .woocommerce-pagination ul li a.prev,
 .woocommerce-page .products-nav .woocommerce-pagination ul li a.prev {
 	text-indent: -9999px;
-	background: url(../assets/img/tab_pre.png) no-repeat center center #fff;
+	background: url(images/tab_pre.png) no-repeat center center #fff;
 }
 
 .woocommerce .products-nav .woocommerce-pagination ul li a.prev:hover,
 .woocommerce-page .products-nav .woocommerce-pagination ul li a.prev:hover {
-	background: url(../assets/img/hover_pre.png) no-repeat center center #000080;
+	background: url(images/hover_pre.png) no-repeat center center #000080;
 }
 
 .woocommerce .products-nav .woocommerce-pagination .products-page,
@@ -7079,7 +7079,7 @@ div.breadcrumbs ul.breadcrumb li+li:before {
 	overflow: hidden;
 	position: relative;
 	margin-bottom: 30px;
-	min-height: 286px;
+	min-height: 335px;
 }
 
 .products-loop li .products-entry .desc {
@@ -13093,13 +13093,13 @@ a.tooltips span b {
 }
 
 .sw-countdown-product button.slick-prev {
-	background: url(../assets/img/tab_pre.png) no-repeat center center #fff;
+	background: url(images/tab_pre.png) no-repeat center center #fff;
 	border: 1px solid #dbdbdb;
 	left: 0px;
 }
 
 .sw-countdown-product button.slick-prev:hover {
-	background: url(../assets/img/hover_pre.png) no-repeat center center #000080;
+	background: url(images/hover_pre.png) no-repeat center center #000080;
 	border-color: #000080;
 }
 
@@ -14667,7 +14667,7 @@ footer .copyright {
 .rtl .sw-woo-tab .category-slider-content .tab-content .woo-tab-container-slider .res-button.slick-next {
 	left: 0;
 	right: auto;
-	background: url(../assets/img/tab_pre.png) no-repeat center center #fff;
+	background: url(images/tab_pre.png) no-repeat center center #fff;
 }
 
 .rtl .sw-woo-tab .category-slider-content .tab-content .woo-tab-container-slider .res-button.slick-prev:hover {
@@ -14676,7 +14676,7 @@ footer .copyright {
 }
 
 .rtl .sw-woo-tab .category-slider-content .tab-content .woo-tab-container-slider .res-button.slick-next:hover {
-	background: url(../assets/img/hover_pre.png) no-repeat center center #000080;
+	background: url(images/hover_pre.png) no-repeat center center #000080;
 	border-color: #000080;
 }
 
@@ -14906,7 +14906,7 @@ footer .copyright {
 .rtl .woo-slider-default .res-button.slick-next {
 	right: auto;
 	left: 0;
-	background: url(../assets/img/tab_pre.png) no-repeat center center #fff;
+	background: url(images/tab_pre.png) no-repeat center center #fff;
 }
 
 .rtl .woo-slider-default .res-button.slick-prev:hover {
@@ -14915,7 +14915,7 @@ footer .copyright {
 }
 
 .rtl .woo-slider-default .res-button.slick-next:hover {
-	background: url(../assets/img/hover_pre.png) no-repeat center center #000080;
+	background: url(images/hover_pre.png) no-repeat center center #000080;
 	border-color: #000080;
 }
 
@@ -15043,7 +15043,7 @@ footer .copyright {
 }
 
 .home8-title-color .res-button.slick-prev:hover {
-	background: url(../assets/img/hover_pre.png) no-repeat center center #264868;
+	background: url(images/hover_pre.png) no-repeat center center #264868;
 	border-color: #264868;
 }
 
@@ -15058,7 +15058,7 @@ footer .copyright {
 }
 
 .rtl .home8-title-color .res-button.slick-next:hover {
-	background: url(../assets/img/hover_pre.png) no-repeat center center #264868 !important;
+	background: url(images/hover_pre.png) no-repeat center center #264868 !important;
 	border-color: #264868 !important;
 }
 
@@ -15651,7 +15651,7 @@ footer .copyright {
 .rtl .category-ajax-slider .res-button.slick-next {
 	left: 0;
 	right: auto;
-	background: url(../assets/img/tab_pre.png) no-repeat center center #fff;
+	background: url(images/tab_pre.png) no-repeat center center #fff;
 }
 
 .rtl .category-ajax-slider .res-button.slick-prev:hover {
@@ -15660,7 +15660,7 @@ footer .copyright {
 }
 
 .rtl .category-ajax-slider .res-button.slick-next:hover {
-	background: url(../assets/img/hover_pre.png) no-repeat center center #000080;
+	background: url(images/hover_pre.png) no-repeat center center #000080;
 	border-color: #000080;
 }
 
@@ -16141,4 +16141,34 @@ ul#menu-main-menu li .sub-menu li a {
 
 .social-share-fb {
 	margin-right: 25px;
+}
+
+.woocommerce-pagination span,
+.woocommerce-pagination a {
+	margin: 0 2px;
+	display: inline-block;
+	height: 30px;
+	line-height: 29px;
+	min-width: 30px;
+	border: 1px solid #ddd;
+	padding: 0 0px;
+	text-align: center;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.woocommerce-pagination a.prev {
+	text-indent: -9999px;
+	background: url(images/tab_pre.png) no-repeat center center #fff;
+}
+
+.woocommerce-pagination a.next {
+	text-indent: -9999px;
+	background: url(images/tab_next.png) no-repeat center center #fff;
+}
+
+.woocommerce-pagination span.current {
+	background-color: #000080;
+	color: #fff;
+	border: 0;
 }

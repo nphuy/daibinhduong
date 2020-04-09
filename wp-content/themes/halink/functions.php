@@ -6,7 +6,9 @@
  *
  * @package Halink
  */
-
+define( 'THEME_URL', get_stylesheet_directory() );
+define( 'CORE', THEME_URL . '/core' );
+require CORE.'/hnp-init.php';
 if ( ! function_exists( 'halink_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -105,9 +107,9 @@ add_action( 'after_setup_theme', 'halink_content_width', 0 );
  */
 function halink_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'halink' ),
-		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'halink' ),
+		'name'          => esc_html__( 'Main Home', 'halink' ),
+		'id'            => 'main-home',
+		'description'   => esc_html__( 'Main home widgets.', 'halink' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
@@ -127,4 +129,14 @@ function halink_scripts() {
 
 }
 add_action( 'wp_enqueue_scripts', 'halink_scripts' );
+
+function set_row_count_archive($query){
+    if (is_product_category()) {
+		$count = isset($_GET['product_count']) && !empty((int)$_GET['product_count']) ? (int)$_GET['product_count'] : 32;
+        $query->set('posts_per_page', $count);
+   }
+    return $query;
+}
+
+add_filter('pre_get_posts', 'set_row_count_archive');
 

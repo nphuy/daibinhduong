@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 if ( $related_products ) : ?>
 
 <div class="widget-inner">
-    <div class="carousel slide sw-related-product block" data-ride="carousel" data-interval="0">
+    <div class="carousel slide sw-related-product block" data-ride="carousel" data-interval="3000">
         <div class="block-title title1">
             <h2>
 				<span>sản phẩm cùng loại</span>

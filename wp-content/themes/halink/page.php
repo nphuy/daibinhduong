@@ -14,6 +14,14 @@
 
 get_header();
 ?>
+<?php if(is_product_category()): ?>
+<?php 
+	get_template_part( 'template-parts/content', 'product_cat' );
+?>
+<?php else: ?>
+
+
+
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
@@ -21,7 +29,6 @@ get_header();
 		<?php
 		while ( have_posts() ) :
 			the_post();
-
 			get_template_part( 'template-parts/content', 'page' );
 
 			// If comments are open or we have at least one comment, load up the comment template.
@@ -34,7 +41,7 @@ get_header();
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+<?php endif; ?>
 <?php
 // get_sidebar();
 get_footer();
